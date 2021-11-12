@@ -1,32 +1,36 @@
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
-* {
-    font-family: 'Comforta', cursive;
-  }
-  
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
   .bg-primary-color {
     background-color: rgba(245, 245, 245, 0.541);
   }
   
-  .bg-secondary-color {
-    background: rgb(246,232,254);
-background: linear-gradient(90deg, rgba(246,232,254,1) 0%, rgba(161,62,245,0.6937149859943977) 0%, rgba(171,85,244,0.6601015406162465) 100%);
-  }
+    .bg-secondary-color {
+    background-color: #c4b5ff;
+   
+  }  
   
-  .bg-dark-color {
-    background: rgb(246,232,254);
-    background: linear-gradient(90deg, rgba(246,232,254,1) 0%, rgba(171,85,244,0.676908263305322) 1%, rgba(171,85,244,0.46682422969187676) 100%);
-  }
+ 
   
   .primary-color {
     color: #050505;
+    text-transform: uppercase;
+    font-size: 18px;
   }
   
   .secondary-color {
-    color: #7a7a7a;
+    color: #575757;
+  
+  }
+  .single-box{
+    border: #130f0f 1px solid;
   }
   .footer-text-color{
-      color: rgba(255, 255, 255, 0.664);
+      color: white;
+      font-weight: bold;
   }
+ 
   
   /* NAVBAR */ 
   .logo img{
@@ -40,17 +44,22 @@ background: linear-gradient(90deg, rgba(246,232,254,1) 0%, rgba(161,62,245,0.693
     display: flex;
   }
   #navbarNav ul li a{
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
   }
   #navbarNav ul li a:hover{
-    background: #97a8f3;
+    background-color: #97a8f3;
     border-radius: 16px;
   }
 
+  .icon{
+    font-size: 4rem;
+    text-align: center;
+
+  }
   
 /*PARALLAX*/
 section{
@@ -60,16 +69,17 @@ section{
   padding: 40px 4%;
   font-family: roboto;
   color: rgb(20,20,20);
-
-
-
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /* filter: ; */
 }
 h1{
   margin-bottom: 20px;
+}
+h3{
+  font-family: 'Comforta', cursive;
 }
 
 section:nth-of-type(1) h1{
@@ -80,9 +90,10 @@ section:nth-of-type(1) h1{
 }
 
 section:nth-of-type(1){
-  background-image: url("../imgs/fundo2.png");
+  background-image: url("../imgs/fundo2.jpg");
   color: white;
   font-size: 60px;
+  
 }
 
   /* Sobre Universidade */
@@ -128,14 +139,12 @@ section:nth-of-type(1){
     font-size: 1.75em;
     margin-bottom: 0.4em;
     position: relative;
+    font-family: 'Comforta', cursive;
   }
   
-  .title:before {
+  hr {
     width: 75px;
-    border-top: 4px solid #FC6DAE;
-    content: '';
-    position: absolute;
-    bottom: 2em;
+    border: 4px solid #FC6DAE;
   }
   
   #featured-images {
@@ -231,6 +240,9 @@ section:nth-of-type(1){
   }
   
   /* FOOTER DETAILS */
+  .bg-dark-color {
+    background-color: #c4b5ff;
+  } 
   #footer-details {
     margin-bottom: 3em;
   }
@@ -259,6 +271,7 @@ section:nth-of-type(1){
   
   #links-container a {
     text-decoration: none;
+    
   }
   
   #links-container a:hover {
