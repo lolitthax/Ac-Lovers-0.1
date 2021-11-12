@@ -1,37 +1,56 @@
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 *{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+  background-color: whitesmoke;
 }
   .bg-primary-color {
     background-color: rgba(245, 245, 245, 0.541);
+   
+    
   }
   
     .bg-secondary-color {
     background-color: #c4b5ff;
+  
    
   }  
-  
- 
-  
+   
   .primary-color {
-    color: #050505;
+    color: #ED4C67;
     text-transform: uppercase;
     font-size: 18px;
   }
   
   .secondary-color {
-    color: #575757;
+    color: #050505;
   
   }
   .single-box{
     border: #130f0f 1px solid;
   }
-  .footer-text-color{
-      color: white;
-      font-weight: bold;
-  }
- 
   
+  .button-demo, .button-rsv{
+    padding: 20px;
+    background-color: #44bd32;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+  }
+
+  .button-demo{
+    width: 20%;
+  }
+  .button-rsv{
+    width: 80%;
+  }
   /* NAVBAR */ 
   .logo img{
     width: 200px;
@@ -246,7 +265,10 @@ section:nth-of-type(1){
   #footer-details {
     margin-bottom: 3em;
   }
-  
+  .footer-text-color{
+    color: white;
+    font-weight: bold;
+}
   #news-container,
   #contact-container,
   #links-container {
