@@ -37,6 +37,7 @@ body{
   .button-demo, .button-rsv{
     padding: 20px;
     background-color: #44bd32;
+    text-decoration: none;
     text-align: center;
     font-weight: bolder;
     color: white;
@@ -47,6 +48,7 @@ body{
 
   .button-demo{
     width: 20%;
+    margin: 20px auto;
   }
   .button-rsv{
     width: 80%;
