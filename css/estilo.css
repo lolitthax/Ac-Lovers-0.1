@@ -4,7 +4,9 @@
   font-family: 'Open Sans', sans-serif;
 
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: whitesmoke;
 }
@@ -52,6 +54,11 @@ body{
   }
   .button-rsv{
     width: 80%;
+  }
+ 
+  .button-demo, .button-rsv:hover{
+  background-color:#6fe75c ;
+  transition: 1s;
   }
   /* NAVBAR */ 
   .logo img{
