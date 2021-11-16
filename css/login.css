@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffe0fb;
+  text-align: center;
+}
+img{
+   margin-top:40px;
+}
+.paper, .paper-cad {
+  position: absolute;
+  background: rgba(255,255,255,0.9);
+  margin: -275px -225px;
+  left: 50%;
+  top: 50%;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+.paper{
+    height: 400px;
+    width: 500px;
+}
+.paper-cad{
+    height: 600px;
+    width: 500px;
+}
+.paper::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  height: 100%;
+  width: 2px;
+  background: rgba(255,0,0,0.4);
+}
+.lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+}
+.text {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
+  line-height: 25px;
+  font-family: 'Indie Flower';
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 18px;
+  color:#5741f8;
+  outline: none;
+  text-align: center;
+}
+.title-form{
+  color: #ED4C67;
+  font-size:20px;
+ text-align: center;
+ font-family: 'Indie Flower';
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+input{
+    width: 100%;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border: steelblue;
+    outline: none;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+ }
+    .inpt{
+        width: 20px;
+    }
+button{
+    padding: 20px;
+    background-color: #44bd32;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+}
+select{
+    width: 50%;
+}
+a{
+    color: blue;
+}
+.voltar{
+    color: red;
+}
+.holes {
+  position: absolute;
+  left: 10px;
+  height: 25px;
+  width: 25px;
+  background: #ffe0fb;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 2px 0px #888;
+}
+.hole-top {
+  top: 10%;
+}
+.hole-middle {
+  top: 50%;
+}
+.hole-bottom {
+  bottom: 10%;
+}

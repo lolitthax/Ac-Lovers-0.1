@@ -15,7 +15,7 @@ debounce = function(func, wait, immediate) {
 	};
 };
 // JAVASCRIPT DO SCROLL
-$('nav a').click(function (e) {
+$('.scroll-effect').click(function (e) {
 	e.preventDefault();
 	var id = $(this).attr('href'),
 		targetOffset = $(id).offset().top,
